@@ -1,0 +1,34 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ / VS Code
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/build/
+
+# Secrets and local config (never commit these)
+.env
+*.pem
+*.key
+application-local.yml
+application-local.properties
+
+# Docker local data
+docker/data/
