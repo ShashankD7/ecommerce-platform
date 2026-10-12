@@ -1,0 +1,4 @@
+app:
+  greeting: "Hello from DEV config!!"
+  feature:
+    wishlist-enabled: true
